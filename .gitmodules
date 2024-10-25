@@ -1,0 +1,12 @@
+[submodule "lab_4/4_online_store/themes/gochowdown"]
+	path = lab_4/4_online_store/themes/gochowdown
+	url = https://github.com/seanlane/gochowdown.git
+[submodule "lab_4/4_online_store_2/themes/gochowdown"]
+	path = lab_4/4_online_store_2/themes/gochowdown
+	url = https://github.com/seanlane/gochowdown.git
+[submodule "lab_4/yoursite/themes/eternity"]
+	path = lab_4/yoursite/themes/eternity
+	url = https://github.com/boratanrikulu/eternity.git
+[submodule "lab_4/3_online_store/themes/eternity"]
+	path = lab_4/3_online_store/themes/eternity
+	url = https://github.com/boratanrikulu/eternity.git

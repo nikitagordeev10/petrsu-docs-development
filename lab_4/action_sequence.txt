@@ -1,8 +1,0 @@
-1) https://gohugo.io/
-2) https://chocolatey.org/install
-
-3.1) hugo new site lab5
-https://themes.gohugo.io/themes/archie/
-hugo server
-hugo new posts/second.md
-hugo -d ..\deploy.simple_page\
