@@ -132,6 +132,154 @@ publish/
 
 _NCrunch*
 
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio generated files
+.vs/
+.vscode/
+.vscode-test/
+.vscode-test-out/
+.vscode-out/
+.vsconfig
+*.user
+*.suo
+*.sln.docstates
+*.cache
+
+# Uncomment if you have tasks that create the files
+# .njsproj
+# .suo
+# .user
+# .userosscache
+# .sln.docstates
+# .vcxproj
+
+# Packages
+*.nuget/
+*.snupkg
+*.nupkg
+
+# Mono Auto Generated Files
+mono_crash.*
+.mono/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Some temporary folders
+[Tt]mp/
+[Tt]emp/
+*.log
+*.lck
+
+# Visual Studio Code workspace history
+.history/
+
+# Visual Studio profiler
+*.psess
+*.vspx
+*.vsp
+
+# Visual Studio 2019 database cache
+# SQL Server files
+*.mdf
+*.ldf
+
+# Rider projects
+.idea/
+.idea_modules/
+.idea_modules_cache/
+
+# JetBrains ReSharper
+.ReSharper*/
+*.DotSettings.user
+
+# Local History for Visual Studio Code
+.history
+
+# Backup files
+*.bak
+*.swp
+
+# NCrunch files
+*.ncrunch*
+
+# Coverage Results
+*.coverage
+*.coveragexml
+
+#Junk Files
+*.DS_Store
+[Tt]humbs.db
+
+#Visual Studio Files
+[Oo]bj
+[Bb]in
+[Dd]ebug
+[Bb]uild/
+*.user
+*.suo
+*.exe
+*.pdb
+*.aps
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.[Cc]ache
+*.bak
+*.ncb
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+ipch/ 
+*.dbmdl
+*.csproj.user
+*.cache
+*.swp
+*.vspscc
+*.vssscc
+*.bak.*
+*.bak
+
+#Tools
+_ReSharper.*
+_ReSharper*/
+*.resharper
+*.resharper.user
+[Nn][Dd]epend[Oo]ut*/
+Ankh.NoLoad
+
+#Other
+.svn
+
+# Include DLLs if they're in the NuGet packages directory
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
+
+
+#################### mediawiki ####################
+
 # Repository management
 .svn
 
@@ -355,3 +503,181 @@ Thumbs.db
 # Docker
 docker-compose.override.yml
 .env
+
+
+
+
+# Repository management
+*/.svn
+
+# git-deploy status file:
+*/.deploy
+
+# Editors
+*/*.kate-swp
+*/*~
+*/\#*#
+*/.#*
+*/.*.swp
+*/.project
+*/cscope.files
+*/cscope.out
+*/*.orig
+## NetBeans
+*/nbproject*
+*/project.index
+## Sublime
+*/sublime-*
+*/sftp-config.json
+## Visual Studio Code
+*/.vscode/
+
+# MediaWiki install & usage
+*/cache
+*/logs
+*/docs/coverage
+*/docs/js
+*/docs/latex
+*/images/[0-9a-f]
+*/images/archive
+*/images/cache
+*/images/deleted
+*/images/lockdir
+*/images/temp
+*/images/thumb
+## Extension:EasyTimeline
+*//images/timeline
+## Extension:Score
+*//images/lilypond
+## Extension:Phonos
+*//images/phonos-render
+## Extension:TimedMediaHandler
+*//images/transcoded
+*//images/tmp
+*//maintenance/.mweval_history
+*//maintenance/.mwsql_history
+*//LocalSettings.php
+*//includes/PlatformSettings.php
+
+# Building & testing
+*/npm-debug.log
+*/node_modules/
+*//resources/lib/.foreign
+*//tests/phpunit/phpunit.phar
+*/.phpunit.result.cache
+*/phpunit*result.cache
+*/tests/phpunit/.phpunit.result.cache
+*/phpunit.xml
+*/tests/selenium/log
+*/.eslintcache
+*/.stylelintcache
+*/.api-testing.config.json
+*/.phan/local-config.php
+
+# Composer
+*/vendor
+*/composer.lock
+*/composer.local.json
+*/composer.phar
+
+# Operating systems
+## Mac OS X
+*/.DS_Store
+## Windows
+*/Thumbs.db
+
+# Misc
+*/.buildpath
+*/.classpath
+*/.idea
+*/*.iml
+*/.metadata*
+*/.settings
+*/favicon.ico
+*/static*
+*/tags
+*/.htaccess
+*/.htpasswd
+*.rej
+
+# Docker
+docker-compose.override.yml
+*/.env
+
+######################## hugo ########################
+
+*/*.test
+*/imports.*
+*/dist/
+*/public/
+*/.DS_Store 
+
+*.test
+imports.*
+dist/
+public/
+.DS_Store 
+
+######################## doxygen ########################
+
+*~
+.*sw?
+\#*
+.DS_Store
+
+*.rej
+*.orig
+
+*.pro
+/packages/rpm/doxygen.spec
+*.idb
+*.pdb
+
+/doxygen_docs
+/doxygen.tag
+/build*
+/qtools_docs
+/warnings.log
+
+tags
+.cache/
+
+.idea
+cmake-build-debug/
+cmake-build-debug-event-trace/
+.vscode/
+
+/examples/html/*
+/examples/latex/*
+
+
+*~
+.*sw?
+\#*
+.DS_Store
+
+*.rej
+*.orig
+
+*.pro
+/packages/rpm/doxygen.spec
+*.idb
+*.pdb
+
+/doxygen_docs
+/doxygen.tag
+/build*
+/qtools_docs
+/warnings.log
+
+tags
+.cache/
+
+.idea
+cmake-build-debug/
+cmake-build-debug-event-trace/
+.vscode/
+
+/examples/html/*
+/examples/latex/*
+/Новая папка
